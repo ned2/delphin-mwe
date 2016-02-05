@@ -1,0 +1,85 @@
+Multiword expressions in the English Resource Grammar (ERG version 1214)
+December 2015
+
+I. Lexical types
+
+Verb + some PP complement(s) where head of PP is selected by verb
+-----------------------------------------------------------------
+v_pp_e_le	  abide by NP                   [opaque prep]
+v_pp_le		  adjust to NP		        [transparent obligatory prep]
+v_pp*_le	  rave about NP                 [transparent optional prep]
+v_pp-pp_le        range from NP to NP           [transparent obligatory PPs]
+v_pp*-pp*_le      agree with NP about NP        [transparent optional preps]
+v_pp-pp_e_le      report on NP to NP            [opaque obligatory preps]
+v_pp_e-nfin_le    beware of NP  	        [verb non-finite]
+v_pp_seq-e_le	  show as AdjP
+v_pp-vp_ssr_le    seem to NP to VP	        [subject raising verb]
+v_pp-vp_seq_le	  arrange with NP to VP         [subject control verb]
+v_it-pp-vp_seq_le arrange it with NP to VP
+v_pp-cp_it-s-e_le dawn on NP that S
+v_np*-pp*-ppto_le change NP from NP to NP       [optional first NP]
+v_np-pp*-ppto_le  get NP from NP to NP          [obligatory first NP]
+v_np-pp*-ppfor_le pay NP to NP for NP
+v_pp_refl-idm_le  come out of one's N	        [reflesive possessive NP]
+v_pp-pp_seq_le    sound like NP to NP
+v_np-pp_e_le	  compare NP with NP	        [obligatory first NP]
+v_np*-pp_e_le     separate NP from NP		[optional first NP]
+v_np-pp_e-ntr_le  interest NP in NP             [no passive alternate]
+v_np-pp_le        name NP after NP		
+v_np-pp_oeq-as_le classify NP as NP		[object control of second NP]
+v_np-pp_seq-as_le strike NP as NP               [subject control of second NP]
+
+Verb + particle and perhaps other complement(s)
+-----------------------------------------------
+v_p_le		  blast off
+v_p_3only_le      go on                         [only 3sing subject]
+v_p-np_le	  auction off NP|auction NP off
+v_p-pp_e_le       add up to NP	                [opaque second prep]
+v_p-pp*_e_le	  hear back from NP		[optional second PP]
+v_p-pp_le	  abstract away from NP         [transparent second prep]
+v_p-vp_prp_le     end up VP-ing 	   	[pres-participle VP complement]
+v_p-vp_ssr_le     have yet to VP	        [subject raising verb]
+v_p-vp_seq_le     turn out to VP		[subject control verb]
+v_p-np-vp_oeq_le  gear NP up to VP		[object control verb]
+v_p-np-pp_to_le   boil NP down to NP
+v_p-np-pp_of_le   make NP up of NP
+v_p-np-pp_for_le  trade NP in for NP
+v_p-np-pp_from_le separate NP out from NP
+v_p-cp_le	  find out that S
+v_p-cp_it-s_le    turn out that S               [expletive-it subject]
+v_p-pp*-cp_le	  point out to NP that S
+v_p-prd_le	  end up AdjP
+v_np-p_le	  see NP around	                [no alternate order of compls]
+v_np-p_idm_le     cry one's N out		[reflexive possessive]
+v_p-np_refl-idm_le cash in one's N              [reflexive possessive NP]
+
+Adjective + some PP complement(s) where head of PP is selected by adjective
+---------------------------------------------------------------------------
+aj_pp_i_le	  alien to                      [attributive or predicative]
+aj_pp_i-prd_le    akin to			[predicative only]
+aj_pp_i-obl_le    devoid of		        [obligatory PP]
+
+==============================================================================
+II. Constructions
+
+Noun as non-head
+----------------
+n-hdn_cpd_c          car door
+n-hdn_j-n-cpd_c      kitchen heavy appliance        [adj between nouns]
+n-v_j-cpd_c	     snow-covered                   [noun + verb forming adj]
+n-j_j-t-cpd_c	     dog-happy			    [noun + adj forming adj]
+n-j_j-cpd_c          dog-friendly                   [noun + adj forming adj]
+
+NP as non-head
+--------------
+np-hdn_cpd_c	     IBM report
+np-hdn_cpd-pr_c      Cupertino, California, company [comma-marked non-head]
+np-hdn_ttl-cpd_c     professor Browne
+np-hdn_ttl-cpd-pl_c  Mssrs. Browne and Jones
+np-hdn_nme-cpd_c     John Browne
+np-hdn_num-cpd_c     problem six
+np-hdn_cty-cpd_c     Portland, Oregon		       [comma-marked non-head]
+
+Other
+-----
+j_n-ed_c	     long-eared		               [adj from noun + -ed]
